@@ -1,4 +1,6 @@
-# ProjetoBuzzfeedMads1974
+# Projeto TechFeed Mads1974
+
+![Tech Feed](tech-feed.png)
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.9.
 
