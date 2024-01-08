@@ -1,0 +1,212 @@
+@media (max-width: 600px) {
+  .quizz-container {
+    width: 60%; 
+    margin: 15px auto; 
+  }
+}
+  .quizz-logo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .quizz-component-items {
+    font-size: 1.05rem; 
+  }
+  
+  .quizz-logo > img {
+    padding: 40px 0;
+  }
+  
+  .dec {
+    position: relative;
+  }
+  
+  .dec::after {
+    content: "";
+    position: absolute;
+    background-size: contain;
+    width: 40px;
+    height: 40px;
+    right: 10px;
+    top: 8px;
+  }
+  
+  .quizz-logo > h3 {
+    margin-top: 10px;
+    color: #ffffff;
+    font-size: 1.80rem;
+    background-color: rgba(0, 0, 0, 0.6);
+    border: solid 1px #44468a;
+    padding: 10px 60px;
+    border-radius: 8px;
+    margin-bottom: 17px;
+  }
+  
+  .quizz-questions {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid 1px #44468a;
+    border-radius: 8px;
+    background-color: rgba(0, 0, 0, 0.8);
+    width: 80%;
+    font-family: 'Segoe UI', 'sans-serif';
+    font-size: 2rem;
+    height: 180px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    color: #ffffff;
+    text-align: center;
+    margin-top: -19px; 
+  }
+  
+  @media (max-width: 710px) {
+    .quizz-questions {
+      font-size: 1.5rem;
+    }
+  
+    .quizz-logo > h3 {
+      font-size: 1rem; 
+      padding: 10px 60px; 
+    }
+  }
+  
+  .quizz-answers {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+  }
+  
+  .btn-option {
+    background-color: transparent;
+    border-radius: 8px;
+    border: solid 1px #44468a;
+    width: 40%;
+    height: 100px;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: 'Segoe UI', 'sans-serif'; 
+    font-size: 1.30rem;
+    padding: 16px 32px;
+    text-shadow: 0px 1px 0px #44468a;
+    transition: ease-in-out 0.6s;
+    background-color: rgba(0, 0, 0, 0.8);
+    margin: 2px;
+  }
+  
+  .btn-option:hover {
+    background-color: #44468a;
+  }
+  
+  .btn-option:active {
+    background-color: #44468a;
+    position: relative;
+    top: 2px;
+  }
+  
+  .quizz-results {
+    margin: 0 auto;
+    width: 70%;
+    height: fit-content;
+    background-color: rgba(0, 0, 0, 0.8);
+    border: solid 1px #44468a;
+    border-radius: 10px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    margin-top: 50px;
+  }
+  
+  .quizz-results > h2 {
+    font-size: 2rem;
+    padding-bottom: 40px;
+  }
+  
+  .final {
+    font-size: 1.8rem;
+    line-height: 1.2;
+    width: 80%;
+    text-align: center;
+  }
+  
+  .btn-reset-quizz {
+    margin-top: 20px;
+    background-color: rgba(0, 0, 0, 0.8);
+    border: solid 1px #44468a;
+    border-radius: 8px;
+    color: #ffffff;
+    font-family: 'Segoe UI', 'sans-serif'; 
+    font-size: 1rem;
+    padding: 10px 20px; 
+    text-shadow: 0px 1px 0px #44468a;
+    transition: ease-in-out 0.6s;
+    cursor: pointer;
+  }
+  
+  .btn-reset-quizz:hover {
+    background-color: #44468a;
+  }
+  
+  .btn-reset-quizz:active {
+    background-color: #44468a;
+    position: relative;
+    top: 2px;
+  }
+  
+  
+  @media (max-width: 710px) {
+    .quizz-questions {
+      font-size: 1.5rem;
+    }
+  
+    .quizz-logo > h3 {
+      font-size: 1.5rem;
+    }
+  }
+  
+  @media (max-width: 600px) {
+    .quizz-questions {
+      font-size: 1.5rem; 
+      height: 110px; 
+      width: 260px; 
+    }
+  
+    .quizz-logo > h3 {
+      font-size: 1.2rem;
+      text-align: center;
+    }
+  
+    .quizz-logo > img {
+      width: 220px; 
+      padding: 20px 0 30px 0; 
+    }
+  
+    .quizz-answers {
+      font-family: 'Segoe UI', 'sans-serif';
+      display: flex;
+      flex-direction: column;
+    }
+  
+    .btn-option {
+      width: 70%; 
+    }
+  
+    .quizz-results {
+      width: 90%; 
+      padding: 40px 10px; 
+    }
+  
+    .final {
+      font-size: 1.4rem; 
+    }
+  }
+  

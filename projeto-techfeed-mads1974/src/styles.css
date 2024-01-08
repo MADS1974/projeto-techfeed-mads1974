@@ -1,0 +1,23 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+body {
+  background: url(../src/assets/imgs/tech.gif) no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  font-family: 'Segoe UI', 'sans-serif';
+}
+
+@media (max-width: 600px) {
+  body {
+    background-size: 100% 215%;
+  }
+}
